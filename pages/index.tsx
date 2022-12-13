@@ -11,60 +11,200 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <main>
+       <div className='header-wrapper'>
+<div>
+  <img src="/images/logo.png"></img>
+</div>
+<div className='right-header-wrapper'>
+<div>
+  <img src="/images/ho.png"></img>
+</div>
+<div>
+  <img src="/images/crea.png"></img>
+</div>
+<div>
+  <img src="/images/mycom.png"></img>
+</div>
+<div>
+  <img src="/images/profile.svg"></img>
+</div>
+</div>
+       </div>
+       <div className='free-wrapper'>
+        <div className='free'>Free</div>
+        <div>Instagram Engagement Rate Calculator</div>  
+        
+        </div>
+        <div className='try'>Try our free engagement  Rate Calculator to find out  the engagement  of any Instagram account</div>
+        <div className='input-wrapper'>
+          <div>
+            <img src="/images/search.png"></img>
+          </div>
+          <div className='dropdown-wrapepr'>
+            <img src="/images/drodown.png"></img>
+          </div>
+        
+        </div>
+        <div className='card-wrapper'>
+          <div className='card'>
+            <div className='green-back-warpper'>
+<img className='green-back' src="/images/greens.png"></img>
+            </div>
+           
+            <div className='people-wrapper'>
+            <div  className='pback'>
+              <img src="/images/pback.png"></img>
+            </div>
+            <div className='people'>
+              <img src="/images/people.png"></img>
+            </div>
+            <div className='pcircle'>
+              <img src="images/pcircle.png"></img>
+            </div>
+            </div>
+            <div className='inner-card'>
+            <div className='insta-wrapper'>
+              <div>
+                <img style={{height:"25px",width:"25px"}} src="/images/insta.svg"></img>
+              </div>
+              <div style={{fontSize:"22px"}}>mukeshneilnitin</div>
+            </div>
+            <div className='followers-wrapper'>
+            <div className=''>
+             <div className='one'>
+              <div >
+                <img src="/images/chat.png"></img>
+              </div>  
+              <div className='bold'>1.1 M</div>
+              </div>
+              <div>Followers</div>
+            </div>
+            <div className=''>
+             <div className='one'>
+              <div >
+                <img src="/images/chat.png"></img>
+              </div>  
+              <div className='bold'>1.1 M</div>
+              </div>
+              <div>Followers</div>
+            </div>
+            <div className=''>
+             <div className='one'>
+              <div >
+                <img src="/images/chat.png"></img>
+              </div>  
+              <div className='bold'>1.1 M</div>
+              </div>
+              <div>Followers</div>
+            </div>
+            </div>
+            <div className='engegment-wrapper'>
+            <div className='bold'>Engagment Rate</div>
+            <div>
+              <img src="/images/Twitter.png"></img>
+            </div>
+            
+            </div>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
+            <div className='rainbow-wrapper'>
+              <div>
+<img src="/images/rainbowback.png"></img>
+</div>
+<div>
+  <img className='rainbow-img' src="/images/rmeter.png"></img>
+</div>
+            </div>
+            <div style={{fontSize:"22px",textAlign:"center"}} className='bold'>2.82%</div>
+            <div className='login-wrapper'>
+            <div >
+            to get full report!
+            </div>
+            <div className='blue-login'> Login</div>
+            </div>
+          </div>
+          </div>
+          <div className='card'>
+            <div className='green-back-warpper'>
+<img className='green-back' src="/images/greens.png"></img>
+            </div>
+           
+            <div className='people-wrapper'>
+            <div  className='pback'>
+              <img src="/images/pback.png"></img>
+            </div>
+            <div className='people'>
+              <img src="/images/people.png"></img>
+            </div>
+            <div className='pcircle'>
+              <img src="images/pcircle.png"></img>
+            </div>
+            </div>
+            <div className='inner-card'>
+            <div className='insta-wrapper'>
+              <div>
+                <img style={{height:"25px",width:"25px"}} src="/images/insta.svg"></img>
+              </div>
+              <div style={{fontSize:"22px"}}>mukeshneilnitin</div>
+            </div>
+            <div className='followers-wrapper'>
+            <div className=''>
+             <div className='one'>
+              <div >
+                <img src="/images/chat.png"></img>
+              </div>  
+              <div className='bold'>1.1 M</div>
+              </div>
+              <div>Followers</div>
+            </div>
+            <div className=''>
+             <div className='one'>
+              <div >
+                <img src="/images/chat.png"></img>
+              </div>  
+              <div className='bold'>1.1 M</div>
+              </div>
+              <div>Followers</div>
+            </div>
+            <div className=''>
+             <div className='one'>
+              <div >
+                <img src="/images/chat.png"></img>
+              </div>  
+              <div className='bold'>1.1 M</div>
+              </div>
+              <div>Followers</div>
+            </div>
+            </div>
+            <div className='engegment-wrapper'>
+            <div className='bold'>Engagment Rate</div>
+            <div>
+              <img src="/images/Twitter.png"></img>
+            </div>
+            </div>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+            <div className='rainbow-wrapper'>
+              <div>
+<img src="/images/rainbowback.png"></img>
+</div>
+<div>
+  <img className='rainbow-img' src="/images/rmeter.png"></img>
+</div>
+            </div>
+            <div style={{fontSize:"22px",textAlign:"center"}} className='bold'>2.82%</div>
+            <div className='login-wrapper'>
+            <div >
+            to get full report!
+            </div>
+            <div className='blue-login'> Login</div>
+            </div>
+          </div>
+          </div>
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+      <footer>
+      
       </footer>
     </div>
   )
